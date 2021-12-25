@@ -24,7 +24,7 @@ layout: default
   <a class="post-link" href="{{ post.url | relative_url }}">
     <h2>{{ post.title | escape }}</h2>
   </a>
-  <p class="post-meta">{{ post.date }}</p>
+  <p>{{ post.date | date_to_long_string }}</p>
   {%- if site.show_excerpts -%}
   {{ post.excerpt }}
   {%- endif -%}
