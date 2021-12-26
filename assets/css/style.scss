@@ -4,5 +4,5 @@
 
 @import 
   "classless-simple/skins/classic",
-  "classless-simple/syntax/default",
+  "classless-simple/syntax/{{ site.classless-simple.syntax | default: 'default' }}",
   "classless-simple/initialize"
