@@ -21,9 +21,9 @@ layout: default
   {%- endif -%}
   
   {%- for post in posts -%}
-  <a class="post-link" href="{{ post.url | relative_url }}">
-    <h2 class="post-title">{{ post.title | escape }}</h2>
-  </a>
+  <h2 class="post-title">
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+  </h2>
   <p class="post-meta">{{ post.date | date_to_long_string }}</p>
   {%- if site.show_excerpts -%}
   {{ post.excerpt }}
