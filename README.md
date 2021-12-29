@@ -6,7 +6,6 @@ To experiment with this code, add some sample content and run `bundle exec jekyl
 
 TODO: Delete this and the text above, and describe your gem
 
-
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
@@ -31,11 +30,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+```yml
+theme: jekyll-theme-classless-simple
+classless-simple:
+  syntax: monokai # syntax
+google_analytics: UA-XXX # Set to enable Google Analytics
+``` 
+
+## Plugins
+
+This theme depends on:
+
+- jekyll-seo-tag
+- jekyll-feed
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/toshimaru/jekyll-theme-classless-simple. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 
@@ -49,4 +60,3 @@ To add a custom directory to your theme-gem, please edit the regexp in `jekyll-t
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
