@@ -1,10 +1,13 @@
 .highlight {
+  $white: #f8f8f2;
+  $bg-black: #272822;
+
   pre {
-    color: #f8f8f2;
-    background-color: #272822;
+    color: $white;
+    background-color: $bg-black;
 
     code, span {
-      color: #f8f8f2;
+      color: $white;
     }
   }
 
@@ -183,34 +186,34 @@
     color: #66d9ef;
   }
   .bp {
-    color: #f8f8f2;
+    color: $white;
   }
   .nb {
-    color: #f8f8f2;
+    color: $white;
   }
   .ni {
-    color: #f8f8f2;
+    color: $white;
   }
   .nn {
-    color: #f8f8f2;
+    color: $white;
   }
   .vc {
-    color: #f8f8f2;
+    color: $white;
   }
   .vg {
-    color: #f8f8f2;
+    color: $white;
   }
   .vi {
-    color: #f8f8f2;
+    color: $white;
   }
   .nv, .vm {
-    color: #f8f8f2;
+    color: $white;
   }
   .w {
-    color: #f8f8f2;
+    color: $white;
   }
   .nl {
-    color: #f8f8f2;
+    color: $white;
     font-weight: bold;
   }
   .nt {
