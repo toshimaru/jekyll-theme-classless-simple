@@ -1,9 +1,11 @@
 name: Test
+
 on:
   push:
     branches:
       - main
   pull_request:
+
 jobs:
   test:
     strategy:
@@ -18,7 +20,7 @@ jobs:
       BUNDLE_GEMFILE: ${{ matrix.gemfile }}
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Set up Ruby ${{ matrix.ruby }}
       uses: ruby/setup-ruby@v1
       with:
