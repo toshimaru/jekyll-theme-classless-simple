@@ -6,4 +6,3 @@ gemspec
 gem "appraisal"
 gem "jekyll"
 gem "jekyll-redirect-from"
-gem "webrick"
