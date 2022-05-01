@@ -9,3 +9,5 @@ description: >
 theme: jekyll-theme-classless-simple
 header_pages:
 - about.md
+plugins:
+  - jekyll-redirect-from
