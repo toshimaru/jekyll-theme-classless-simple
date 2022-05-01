@@ -6,7 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["toshimaru"]
   spec.email         = ["me@toshimaru.net"]
 
-  spec.summary       = "Jekyll theme with simple.css"
+  spec.summary       = "Jekyll theme styled with Simple.css"
+  spec.description   = "jekyll-theme-classless-simple is a Jekyll theme styled with Simple.css, a classless CSS framework."
   spec.homepage      = "https://github.com/toshimaru/jekyll-theme-classless-simple"
   spec.license       = "MIT"
 

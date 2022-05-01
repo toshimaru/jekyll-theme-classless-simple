@@ -2,11 +2,9 @@
 
 # jekyll-theme-classless-simple
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+jekyll-theme-classless-simple is a Jekyll theme styled with [Simple.css](https://github.com/kevquirk/simple.css), a classless CSS framework.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
+[![Demo site](https://user-images.githubusercontent.com/803398/166136399-ae70d28a-cf4c-446c-ba19-06ed91c44884.png)](https://jekyll-classless-simple.toshimaru.net/)
 
 ## Installation
 
@@ -24,19 +22,22 @@ theme: jekyll-theme-classless-simple
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-theme-classless-simple
+```console
+$ bundle
+```
 
 ## Usage
 
 ```yml
+# Specify theme
 theme: jekyll-theme-classless-simple
+
 classless-simple:
-  syntax: monokai # syntax
-google_analytics: UA-XXX # Set to enable Google Analytics
+  syntax: monokai # syntax highlight theme
+
+# Set to enable Google Analytics
+google_analytics: UA-XXX 
+
 # Navigation links in header
 header_pages:
 - about.md
