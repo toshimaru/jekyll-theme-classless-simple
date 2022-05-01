@@ -1,11 +1,13 @@
 <header>
+  <nav>
+  {%- for path in site.header_pages -%}
+    {%- assign my_page = site.pages | where: "path", path | first -%}
+    {%- if my_page.title -%}
+      <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+    {%- endif -%}
+  {%- endfor -%}
+  </nav>
   <h1>
     <a href="/" class="site-title">{{ site.title | escape }}</a>
   </h1>
-  {% comment %}
-  <nav>
-    <a href="/">Home</a>
-    <a href="https://github.com/kevquirk/simple.css">Github</a>
-  </nav>
-  {% endcomment %}
 </header>

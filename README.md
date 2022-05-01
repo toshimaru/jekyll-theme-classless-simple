@@ -37,6 +37,10 @@ theme: jekyll-theme-classless-simple
 classless-simple:
   syntax: monokai # syntax
 google_analytics: UA-XXX # Set to enable Google Analytics
+# Navigation links in header
+header_pages:
+- about.md
+- view-on-github.md
 ``` 
 
 ## Plugins

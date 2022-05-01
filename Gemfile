@@ -5,4 +5,4 @@ gemspec
 
 gem "appraisal"
 gem "jekyll"
-gem "webrick"
+gem "jekyll-redirect-from"
