@@ -4,5 +4,7 @@ source "https://rubygems.org"
 
 gem "appraisal"
 gem "jekyll", "~> 4.1.0"
+gem "jekyll-redirect-from"
+gem "webrick"
 
 gemspec path: "../"
