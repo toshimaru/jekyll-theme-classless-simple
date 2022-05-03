@@ -9,6 +9,16 @@ jekyll-theme-classless-simple is a Jekyll theme styled with [Simple.css](https:/
 
 ## Installation
 
+### via [remote_theme](https://github.com/benbalter/jekyll-remote-theme)
+
+Add this line to your Jekyll site's `_config.yml`:
+
+```yml
+remote_theme: toshimaru/jekyll-theme-classless-simple
+```
+
+### via gem
+
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
@@ -31,7 +41,9 @@ $ bundle
 
 ```yml
 # Specify theme
-theme: jekyll-theme-classless-simple
+remote_theme: toshimaru/jekyll-theme-classless-simple
+# Or if you install gem,
+# theme: jekyll-theme-classless-simple
 
 classless-simple:
   syntax: monokai # syntax highlight theme
@@ -41,16 +53,17 @@ google_analytics: UA-XXX
 
 # Navigation links in header
 header_pages:
+- home.md
 - about.md
-- view-on-github.md
-``` 
+- categories.html
+```
 
 ## Plugins
 
 This theme depends on:
 
-- jekyll-seo-tag
-- jekyll-feed
+- [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+- [jekyll-feed](https://github.com/jekyll/jekyll-feed)
 
 ## Contributing
 
