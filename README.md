@@ -53,16 +53,17 @@ google_analytics: UA-XXX
 
 # Navigation links in header
 header_pages:
+- home.md
 - about.md
-- view-on-github.md
+- categories.html
 ``` 
 
 ## Plugins
 
 This theme depends on:
 
-- jekyll-seo-tag
-- jekyll-feed
+- [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+- [jekyll-feed](https://github.com/jekyll/jekyll-feed)
 
 ## Contributing
 
