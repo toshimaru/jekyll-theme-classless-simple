@@ -9,7 +9,7 @@ jekyll-theme-classless-simple is a Jekyll theme styled with [Simple.css](https:/
 
 ## Installation
 
-### via remote_theme
+### via [remote_theme](https://github.com/benbalter/jekyll-remote-theme)
 
 Add this line to your Jekyll site's `_config.yml`:
 
@@ -56,7 +56,7 @@ header_pages:
 - home.md
 - about.md
 - categories.html
-``` 
+```
 
 ## Plugins
 
