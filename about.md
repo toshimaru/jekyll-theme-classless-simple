@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-jekyll-theme-classless-simple is a Jekyll theme styled with [Simple.css](https://github.com/kevquirk/simple.css), a classless CSS framework.
+{{ site.description }}
 
-- [GitHub](https://github.com/toshimaru/jekyll-theme-classless-simple)
-- [Simple.css](https://github.com/kevquirk/simple.css)
+- [GitHub Repository](https://github.com/toshimaru/jekyll-theme-classless-simple)
+- [Simple.css](https://simplecss.org/)
