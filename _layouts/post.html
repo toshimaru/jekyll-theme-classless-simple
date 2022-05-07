@@ -9,6 +9,12 @@ layout: default
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date_to_long_string }}
       </time>
+
+      {%- if page.last_modified_at -%}
+      <time class="dt-modified" datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">
+        (Updated on {{ page.last_modified_at | date_to_string }})
+      </time>
+      {%- endif -%}
     </p>
   </div>
 
