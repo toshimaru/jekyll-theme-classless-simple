@@ -10,5 +10,15 @@ theme: jekyll-theme-classless-simple
 header_pages:
 - about.md
 - view-on-github.md
+giscus:
+  repo: toshimaru/jekyll-theme-classless-simple
+  repo-id: R_kgDOGifmdQ
+  category-id: DIC_kwDOGifmdc4CO8Hz
+  # category: Announcements
+  # lang: en
+  # reactions-enabled: 1
+  # emit-metadata: 0
+  # input-position: bottom
+  # theme: light
 plugins:
 - jekyll-redirect-from
