@@ -5,7 +5,7 @@
 
 jekyll-theme-classless-simple is a Jekyll theme styled with [Simple.css](https://github.com/kevquirk/simple.css), a classless CSS framework.
 
-[![Demo site](https://user-images.githubusercontent.com/803398/166136399-ae70d28a-cf4c-446c-ba19-06ed91c44884.png)](https://jekyll-classless-simple.toshimaru.net/)
+[![Demo site](https://user-images.githubusercontent.com/803398/167260765-5098243b-8b0b-4d01-82c0-d0b5b070a95d.png)](https://jekyll-classless-simple.toshimaru.net/)
 
 ## Installation
 
