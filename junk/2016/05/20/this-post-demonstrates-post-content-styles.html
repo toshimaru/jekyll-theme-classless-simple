@@ -28,10 +28,17 @@
 </header>
 <main class="page-content" aria-label="Content">
     <div class="wrapper">
-      <article class="post">
-  <h1 class="post-title">This post demonstrates post content styles</h1>
-  <p class="post-meta">20 May 2016</p>
-  <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
+      <div class="post">
+  <div class="post-header">
+    <h1 class="post-title" itemprop="name headline">This post demonstrates post content styles</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2016-05-20T00:00:00+09:00" itemprop="datePublished">
+        20 May 2016
+      </time></p>
+  </div>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
 
 <h2 id="some-great-heading-h2">Some great heading (h2)</h2>
 
@@ -197,8 +204,9 @@
     </tr>
   </tbody>
 </table>
+
+  </div>
 </div>
-</article>
 
     </div>
   </main><footer>
