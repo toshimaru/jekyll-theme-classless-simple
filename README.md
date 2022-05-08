@@ -56,6 +56,19 @@ header_pages:
 - home.md
 - about.md
 - categories.html
+
+# Comment form powered by Giscus
+# You can get the following values here: https://giscus.app/
+giscus:
+  repo: github-user-id/repo-name
+  repo-id: R_xxx
+  category-id: DIC_xxx
+  # category: Announcements
+  # lang: en
+  # reactions-enabled: 1
+  # emit-metadata: 0
+  # input-position: bottom
+  # theme: light
 ```
 
 ## Plugins
