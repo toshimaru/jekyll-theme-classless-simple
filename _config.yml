@@ -3,12 +3,22 @@ author:
   name: GitHub User
   email: your-email@domain.com
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  jekyll-theme-classless-simple is a Jekyll theme
+  styled with [Simple.css](https://github.com/kevquirk/simple.css),
+  a classless CSS framework.
 theme: jekyll-theme-classless-simple
 header_pages:
 - about.md
 - view-on-github.md
+giscus:
+  repo: toshimaru/jekyll-theme-classless-simple
+  repo-id: R_kgDOGifmdQ
+  category-id: DIC_kwDOGifmdc4CO8Hz
+  # category: Announcements
+  # lang: en
+  # reactions-enabled: 1
+  # emit-metadata: 0
+  # input-position: bottom
+  # theme: light
 plugins:
-  - jekyll-redirect-from
+- jekyll-redirect-from
