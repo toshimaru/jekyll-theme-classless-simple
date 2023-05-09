@@ -74,6 +74,15 @@ giscus:
   # theme: light
 ```
 
+## Layouts
+
+Refers to files within the `_layouts` directory, that define the markup for your theme.
+
+- `base.html`: The base layout that lays the foundation for subsequent layouts.
+- `home.html`: The layout for your landing-page / home-page / index-page.
+- `post.html`: The layout for your posts.
+- `page.html`: The layout for your documents that contain FrontMatter, but are not posts.
+
 ## Plugins
 
 This theme depends on:
