@@ -42,7 +42,7 @@ $ bundle
 ```yml
 # Specify theme
 remote_theme: toshimaru/jekyll-theme-classless-simple
-# Or if you install gem,
+# Or,
 # theme: jekyll-theme-classless-simple
 
 classless-simple:
@@ -56,6 +56,9 @@ header_pages:
 - home.md
 - about.md
 - categories.html
+
+# Specify your language (default: en)
+# lang: en
 
 # Comment form powered by Giscus
 # You can get the following values here: https://giscus.app/
