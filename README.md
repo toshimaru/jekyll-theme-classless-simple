@@ -83,6 +83,13 @@ Refers to files within the `_layouts` directory, that define the markup for your
 - `post.html`: The layout for your posts.
 - `page.html`: The layout for your documents that contain FrontMatter, but are not posts.
 
+## Includes
+
+- `footer.html`: Defines the site's footer section.
+- `head.html`: Code-block that defines the `<head></head>` in *default* layout.
+- `custom-head.html`: Placeholder to allow users to add more metadata to `<head />`.
+- `header.html`: Defines the site's main header section. 
+
 ## Plugins
 
 This theme depends on:
