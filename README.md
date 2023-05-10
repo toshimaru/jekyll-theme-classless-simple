@@ -42,7 +42,7 @@ $ bundle
 ```yml
 # Specify theme
 remote_theme: toshimaru/jekyll-theme-classless-simple
-# Or if you install gem,
+# Or,
 # theme: jekyll-theme-classless-simple
 
 classless-simple:
@@ -57,6 +57,9 @@ header_pages:
 - about.md
 - categories.html
 
+# Specify your language (default: en)
+# lang: en
+
 # Comment form powered by Giscus
 # You can get the following values here: https://giscus.app/
 giscus:
@@ -70,6 +73,22 @@ giscus:
   # input-position: bottom
   # theme: light
 ```
+
+## Layouts
+
+Refers to files within the `_layouts` directory, that define the markup for your theme.
+
+- `base.html`: The base layout that lays the foundation for subsequent layouts.
+- `home.html`: The layout for your landing-page / home-page / index-page.
+- `post.html`: The layout for your posts.
+- `page.html`: The layout for your documents that contain FrontMatter, but are not posts.
+
+## Includes
+
+- `footer.html`: Defines the site's footer section.
+- `head.html`: Code-block that defines the `<head></head>` in *default* layout.
+- `custom-head.html`: Placeholder to allow users to add more metadata to `<head />`.
+- `header.html`: Defines the site's main header section. 
 
 ## Plugins
 
