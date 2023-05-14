@@ -1,5 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-classless-simple.svg)](https://badge.fury.io/rb/jekyll-theme-classless-simple)
-[![Test](https://github.com/toshimaru/jekyll-theme-classless-simple/actions/workflows/ci.yaml/badge.svg)](https://github.com/toshimaru/jekyll-theme-classless-simple/actions/workflows/ci.yaml)
+[![Test](https://github.com/toshimaru/jekyll-theme-classless-simple/actions/workflows/ci.yml/badge.svg)](https://github.com/toshimaru/jekyll-theme-classless-simple/actions/workflows/ci.yml)
 
 # jekyll-theme-classless-simple
 
