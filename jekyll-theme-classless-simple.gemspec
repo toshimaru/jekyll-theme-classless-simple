@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
     f.match(/^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)/i)
   end
 
-  spec.required_ruby_version = '>= 3.0.0'
+  spec.required_ruby_version = '>= 2.7.0'
 
   spec.add_runtime_dependency 'jekyll', '>= 3.9'
   spec.add_runtime_dependency 'jekyll-feed'
