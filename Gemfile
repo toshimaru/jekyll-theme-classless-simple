@@ -7,3 +7,5 @@ gem "appraisal"
 gem "jekyll"
 gem "jekyll-redirect-from"
 gem "webrick"
+
+gem "jekyll-sass-converter", "2.2.0"
