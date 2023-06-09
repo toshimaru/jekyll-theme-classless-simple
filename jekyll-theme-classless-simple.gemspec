@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'jekyll-theme-classless-simple'
-  spec.version       = '0.5.1'
+  spec.version       = '0.6.0'
   spec.authors       = ['toshimaru']
   spec.email         = ['me@toshimaru.net']
 
