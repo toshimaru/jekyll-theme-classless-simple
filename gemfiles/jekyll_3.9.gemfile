@@ -2,9 +2,12 @@
 
 source "https://rubygems.org"
 
-gem "appraisal"
-gem "jekyll", "~> 3.9.0"
 gem "jekyll-redirect-from"
-gem "webrick"
+gem "jekyll-paginate"
+gem "jekyll", "~> 3.9.0"
+
+group :development do
+  gem "appraisal"
+end
 
 gemspec path: "../"

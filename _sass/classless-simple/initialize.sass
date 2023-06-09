@@ -12,3 +12,37 @@
 .post-meta
   color: var(--text-light)
   margin: 0
+
+.social-media-list
+  display: flex
+  justify-content: center
+  list-style: none
+  margin-left: 0
+  li
+    margin: 5px 10px 5px 0
+    &:last-of-type
+      margin-right: 0
+    a
+      display: block
+      padding: 10px 12px
+      border: 1px solid var(--border)
+      text-decoration: none
+      &:hover
+        border-color: var(--accent)
+
+// Pagination navbar
+.pagination
+  @extend .social-media-list
+  li
+    a, div
+      min-width: 43px
+      text-align: center
+      box-sizing: border-box
+    div
+      display: block
+      padding: 10px 12px
+      border: 1px solid transparent
+
+      &.pager-edge
+        color: var(--disabled)
+        border: 1px dashed var(--disabled)
