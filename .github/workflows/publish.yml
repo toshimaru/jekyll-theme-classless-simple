@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    paths:
-      - .github/workflows/publish.yml
+  workflow_dispatch:
+  # For workflow debugging
+  # pull_request:
+  #   paths:
+  #     - .github/workflows/publish.yml
 
 env:
   TZ: 'Asia/Tokyo'
