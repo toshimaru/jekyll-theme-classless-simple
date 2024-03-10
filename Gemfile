@@ -3,9 +3,10 @@
 source "https://rubygems.org"
 gemspec
 
-gem "appraisal"
-gem "jekyll"
 gem "jekyll-redirect-from"
-gem "webrick"
-
 gem "jekyll-sass-converter", "2.2.0"
+gem "jekyll-paginate"
+
+group :development do
+  gem "appraisal"
+end

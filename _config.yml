@@ -8,8 +8,9 @@ description: >
   a classless CSS framework.
 theme: jekyll-theme-classless-simple
 header_pages:
-- about.md
-- view-on-github.md
+  - about.md
+  - view-on-github.md
+paginate: 5
 giscus:
   repo: toshimaru/jekyll-theme-classless-simple
   repo-id: R_kgDOGifmdQ
@@ -21,4 +22,5 @@ giscus:
   # input-position: bottom
   # theme: light
 plugins:
-- jekyll-redirect-from
+  - jekyll-redirect-from
+  - jekyll-paginate
